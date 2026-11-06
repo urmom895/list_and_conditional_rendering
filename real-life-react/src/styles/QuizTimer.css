@@ -1,0 +1,20 @@
+.quiz-timer {
+  background: white;
+  color: black;
+  padding: 15px;
+  margin: 15px 0;
+  border: 1px solid gray;
+}
+
+.quiz-timer h3 {
+  font-size: 30px;
+}
+
+.quiz-timer .red {
+  color: red;
+}
+
+.quiz-timer button {
+  margin: 5px;
+  padding: 8px;
+}

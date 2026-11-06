@@ -1,0 +1,17 @@
+.auto-save-note {
+  background: white;
+  color: black;
+  padding: 15px;
+  margin: 15px 0;
+  border: 1px solid gray;
+}
+
+.auto-save-note textarea {
+  width: 95%;
+  height: 100px;
+  padding: 10px;
+}
+
+.auto-save-note button {
+  padding: 8px;
+}

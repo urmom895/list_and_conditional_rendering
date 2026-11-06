@@ -2,6 +2,11 @@ import Navbar from "./tasks/NavBar";
 import ProductCard from "./tasks/ProductCard";
 import WeatherCard from "./tasks/WeatherCard";
 import OrderTracker from "./tasks/OrderTracker";
+import InboxTitle from "./effects/InboxTitle";
+import QuizTimer from "./effects/QuizTimer";
+import UserProfile from "./effects/UserProfile";
+import ScreenSize from "./effects/ScreenSize";
+import AutoSaveNote from "./effects/AutoSaveNote";
 
 import "./App.css";
 
@@ -42,6 +47,22 @@ function App() {
       <OrderTracker status="delivered" etaMinutes={0} />
       <OrderTracker status="cancelled" etaMinutes={0} />
 
+      <h1>useEffect Workbook</h1>
+
+      <h2>Task 1: Inbox tab title</h2>
+      <InboxTitle />
+
+      <h2>Task 2: Quiz countdown timer</h2>
+      <QuizTimer />
+
+      <h2>Task 3: User profile from an API</h2>
+      <UserProfile />
+
+      <h2>Task 4: Screen size detector</h2>
+      <ScreenSize />
+
+      <h2>Task 5: Auto-saving note</h2>
+      <AutoSaveNote />
      
     </div>
   );
