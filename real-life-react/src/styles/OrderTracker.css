@@ -1,0 +1,21 @@
+.order-tracker {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+.progress {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.done {
+  color: green;
+}
+
+.upcoming {
+  color: gray;
+}

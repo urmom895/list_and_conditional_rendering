@@ -1,0 +1,14 @@
+.product-card {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.sale {
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
